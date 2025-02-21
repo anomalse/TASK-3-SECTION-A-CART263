@@ -262,6 +262,7 @@ function setup_A() {
     /*** THIS IS THE CALLBACK FOR KEY DOWN ( DO NOT CHANGE THE NAME..) */
     windowKeyDownRef = function (e) {
       console.log(e);
+      e.preventDefault(); //sabine added
 
       /** Creating the square that will be the snake **/
       let TEAM_A_square = document.createElement("div");
