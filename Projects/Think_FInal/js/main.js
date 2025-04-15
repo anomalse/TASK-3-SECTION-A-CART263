@@ -99,8 +99,8 @@ function preload() {
     uiBorder = loadImage("assets/images/UI/border.PNG");
     brainIdle = loadImage("assets/images/UI/brain_idle.PNG");
     brainMenu = loadImage("assets/images/UI/brain_options.PNG");
-    introIMG = loadImage("assets/images/UI/intro.PNG");
-    endingIMG = loadImage("assets/images/UI/ending.PNG");
+    introIMG = loadImage("assets/images/UI/intro.png");
+    endingIMG = loadImage("assets/images/UI/ending.png");
     // CHaracter Sprites
     saraNeutral = loadImage("assets/images/Sprites/Sara_neutral.PNG");
     saraSad = loadImage("assets/images/Sprites/Sara_sad.PNG");
